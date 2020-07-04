@@ -2,6 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router';
 
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const Body = (props) => {
   return (
@@ -10,6 +11,7 @@ const Body = (props) => {
       <main className="App">
         <section className="App__content">{props.children}</section>
       </main>
+      <Footer />
     </>
   )
 }
