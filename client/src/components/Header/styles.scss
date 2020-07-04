@@ -1,0 +1,31 @@
+.header {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+
+  &__logo {
+    width: 80%;
+
+    position: absolute;
+    top: 14px;  
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    @media #{$BREAKPOINT-DESK} {
+      width: 50%;
+    }
+  }
+  
+  &__bg {
+    width: 100%;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media #{$BREAKPOINT-TABLET} {
+      height: 260px;
+    }
+  }
+}
