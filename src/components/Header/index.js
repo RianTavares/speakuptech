@@ -4,13 +4,8 @@ import Logo from "../../assets/imgs/logo.svg";
 
 const Header = () => {
   return (
-    <header className="header">
+    <header className="header" style={{backgroundImage: `url(${Background})`}} >
       <img className="header__logo" src={Logo} alt="Logo Speak up Tech"/>
-      <div 
-        className="header__bg" 
-        style={{backgroundImage: `url(${Background})`}} 
-        alt="Logo Speak up Tech" 
-      />
     </header>
   )
 }
