@@ -40,7 +40,7 @@ Se quiser entender um pouco mais sobre o que é esse projeto, da uma acessada no
 
 
 ## Needing improvement  // To do
-- Escreve uma issue se encontrar qualquer questão que necessite de melhorias ou contribua fazendo um pull request.
+- Escreva uma issue se encontrar qualquer questão que necessite de melhorias ou contribua fazendo um pull request.
 
 
 
