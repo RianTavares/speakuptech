@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/RianTavares/pokedex" alt="Pokedex by Rian Logo"><img src="./src/assets/imgs/logo.svg"></a></p>
+<p align="center"><a href="https://github.com/RianTavares/pokedex" alt="Pokedex by Rian Logo"><img src="./src/assets/imgs/logo-bg.svg"></a></p>
 
 <p align="center"><h1 align="center">Speak Up Tech Subs Counter</h1></p>
 
