@@ -1,73 +1,54 @@
-<p align="center"><a href="https://github.com/RianTavares/pokedex" alt="Pokedex by Rian Logo"><img src="./imgs/logo-pokedex-by-rian.png"></a></p>
+<p align="center"><a href="https://github.com/RianTavares/pokedex" alt="Pokedex by Rian Logo"><img src="./src/assets/imgs/logo.svg"></a></p>
 
 <p align="center"><h1 align="center">Speak Up Tech Subs Counter</h1></p>
 
 <div align="center">
-  <a href="https://www.codefactor.io/repository/github/riantavares/pokedex">
-    <img alt="Code quality" src="https://www.codefactor.io/repository/github/riantavares/pokedex/badge?s=1e4f37b4ed9946274badab56bd86f902bb9c186a">
+  <a href="https://www.codefactor.io/repository/github/riantavares/speakuptech">
+    <img alt="Code quality" src="https://www.codefactor.io/repository/github/riantavares/speakuptech/badge">
   </a>
   <a href="https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github">
     <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen">
   </a>
    <a href="https://img.shields.io/github/license/RianTavares/pokedex?color=blue">
-    <img alt="Githubs License" src="https://img.shields.io/github/license/RianTavares/pokedex?color=blue">
-  </a>
-</div>
-<div align="center">
-  <a href="https://img.shields.io/david/RianTavares/pokedex?label=client%20dependencies&path=client">
-    <img alt="Client Dependencies" src="https://img.shields.io/david/RianTavares/pokedex?label=client%20dependencies&path=client">
-  </a>
-  <a href="https://img.shields.io/david/dev/RianTavares/pokedex?label=client%20devDependencies&path=client">
-    <img alt="Client Dev Dependencies" src="https://img.shields.io/david/dev/RianTavares/pokedex?label=client%20devDependencies&path=client">
+    <img alt="Githubs License" src="https://img.shields.io/github/license/RianTavares/speakuptech?color=blue">
   </a>
 </div>
 
-## What does it do
 
-This project is a kind of study and a front-end challenge. Its main function is to capture information from a GraphQL API that returns all classic Pokémon and their information and, using React, organize the data on the screen providing the user with the experience to find all the information of the desired pokemon.
+## O que é essa aplicação?
 
-<p align="center"><a href="https://github.com/RianTavares/pokedex" alt="exemplo de funcionamento"><img src="./imgs/exemplo.gif"></a></p>
+Esse projeto é parte de uma série desenvolvida para o canal do youtube [SpeakUpTech](https://youtube.com/c/SpeakUpTech). Nesta série desenvolvemos um contador de inscritos para o canal. E aqui você encontra o Front-End dessa aplicação.
 
-## Features
+<p align="center"><img src="./src/assets/imgs/exemplo-tela.png"></p>
 
-- [✓] User friendly
-- [✓] Mobile friendly
-- [✓] List of all pokemons showing their names pokedex numbers and their main type color
-- [✓] Organizable and readable code (using ESlint)
-- [✓] Error component to handler 404 pages and Server error
-- [✓] Sort of pagination using a button to request more data from API
-- [✓] App up and running on Heroku (https://pokedexbyrian.herokuapp.com/)
+Se quiser entender um pouco mais sobre o que é esse projeto, da uma acessada no canal que você irá encontrar vídeo que não só explicam o projeto como documentam todo o processo criativo.
 
+## Como configurar e rodar o Projeto (CLI Version)
 
+1. Faça o download ou clone o projeto em sua máquina
+2. Tenha o node instalado [Node.js](https://nodejs.org/it/)
+3. Rode em seu terminal o comando `npm install` na raíz do projeto
+4. Agora inicie a aplicação com o comando `npm start` na raíz do projeto
+5. O projeto está rodando na porta `3000`
 
-## Fast setup (CLI Version)
-
-1. Download or Clone the project and extract it
-2. Download [Node.js](https://nodejs.org/it/) and install it.
-3. Run `npm install` into `client` folder
-4. Start the project local via command line `npm start`
-5. The project now is running on `3000` port. 
+* Acesse através da URL local: http://localhost:3000/
 
 
-## Technology and resources
-- React JS (some libs as react-router, react-router-dom, apollo-cache-inmemory, node-sass, etc)
-- Apollo Client 
+## Tecnologias e Recursos
+- React JS (e libs como react-router, react-router-dom, react-icons)
 - SASS
-- Consumes from a GraphQL API (https://graphql-pokemon.now.sh/)
 
 
 
 ## Needing improvement  // To do
-- Apollo client cache:
-  - cache fragments
-  - The Pokémon details page is not reading data from the updated cache
-- Write an issue if you find anything to improve or contribute making a pull request
+- Escreve uma issue se encontrar qualquer questão que necessite de melhorias ou contribua fazendo um pull request.
+
 
 
 :warning: :point_down:
 
-- if you enjoyed about this project add a star :star: 
-- Don't forget to follow me on Instagram [@riantavareson](https://www.instagram.com/riantavareson/) :heart:
-- And follow me also here on [github](https://github.com/RianTavares) :)
-- Don't go away without contribute, PRs are welcome!
+- Se curtiu o projeto não esqueça de adicionar uma estrela :star: 
+- Segue a gente lá no insta também [@speak.up.tech](https://www.instagram.com/speak.up.tech/) :heart:
+- E me segue aqui no [github](https://github.com/RianTavares) :)
+- Ah e não vá embora sem contribuir, PRs são bem vindas!
 
