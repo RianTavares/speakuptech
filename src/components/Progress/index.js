@@ -8,7 +8,6 @@ const Progress = (props) => {
   return (
     <div className="progress-bar">
       <span 
-        className="progress-bar__value"
         style={{ width: `${subsPercent}%`}}>
 
           {`${subsPercent}%`}
