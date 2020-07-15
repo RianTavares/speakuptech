@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Progress from "../../components/Progress";
 
 const Home = () =>  {
-  const [subscribers, setSubscribers] = useState(133/10)
+  const [subscribers, setSubscribers] = useState(133)
 
   return (
     <>
