@@ -7,11 +7,8 @@ const Progress = (props) => {
 
   return (
     <div className="progress-bar">
-      <span 
-        style={{ width: `${subsPercent}%`}}>
-
+      <span style={{ width: `${subsPercent}%`}}>
           {`${subsPercent}%`}
-
       </span>
       <p>{goal}</p>
     </div>
