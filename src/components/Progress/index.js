@@ -1,16 +1,17 @@
 import React from "react";
 
 const Progress = (props) => {
-  const progressValue = props.width;
+  const subsCount = props.count;
+  const subsPercent = (subsCount/10);
   const goal = props.goal;
 
   return (
     <div className="progress-bar">
       <span 
         className="progress-bar__value"
-        style={{ width: `${progressValue}%`}}>
+        style={{ width: `${subsPercent}%`}}>
 
-          {`${progressValue}%`}
+          {`${subsPercent}%`}
 
       </span>
       <p>{goal}</p>
