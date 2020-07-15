@@ -3,7 +3,8 @@ import React, { useState, useEffect } from "react";
 import Progress from "../../components/Progress";
 
 const Home = () =>  {
-  const [subscribers, setSubscribers] = useState(133)
+  const [subscribers, setSubscribers] = useState(133);
+  const goal = 1000;
 
   return (
     <>
@@ -17,7 +18,7 @@ const Home = () =>  {
       <p className="App__content__subs__count">133</p>
       <p className="App__content__subs__subtitle">Inscritos</p>
     </section>
-    <Progress width={subscribers} goal="1000"/>
+    <Progress width={subscribers} goal={goal} />
     </>
   )
 }
