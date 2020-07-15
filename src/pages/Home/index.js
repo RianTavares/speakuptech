@@ -18,7 +18,7 @@ const Home = () =>  {
       <p className="App__content__subs__count">133</p>
       <p className="App__content__subs__subtitle">Inscritos</p>
     </section>
-    <Progress width={subscribers} goal={goal} />
+    <Progress count={subscribers} goal={goal} />
     </>
   )
 }
